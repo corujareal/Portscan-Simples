@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
 		if (conecta == 0) {
 			printf("Porta aberta: %d\n", porta);
 		}
-		close(sock);
+		pclose(sock);
 	}
 	return 0;
 }
