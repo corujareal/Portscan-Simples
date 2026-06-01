@@ -30,3 +30,10 @@ Funcionamento passo a passo:
 # Limitação conhecida
 
 O scanner é sequencial e não otimizado – testa uma porta por vez. Por isso é mais lento em varreduras com muitas portas. Ele também só funciona com endereços IP (não com nomes de domínio diretos, a menos que resolvidos previamente).
+# Instalação(linux)
+     git clone https://github.com/corujareal/Portscan-Simples
+     cd Portscan-Simples
+     gcc portscan.c -o portscan
+     ./portscan
+# Avisos
+Este repositório tem foco em fins curriculares.
