@@ -15,7 +15,7 @@ Funcionamento passo a passo:
 
     Limpeza – O socket é fechado antes de partir para a próxima porta.
 
-# Principais elementos técnicos (sem complexidade excessiva):
+# Principais elementos técnicos:
 
     socket(AF_INET, SOCK_STREAM, 0) – cria um socket IPv4 para comunicação TCP.
 
